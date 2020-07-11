@@ -1,3 +1,5 @@
+My solution to DnD Beyond's Frontend developer challenge using React and node-saas! This was a lot of fun.
+
 # Front-End Developer Challenge
 In this repo you will find a mock-up and all the necessary assets (in a separate folder). The design is of a tool for a fictitious game called “TitanStar Legends”, and will not be repurposed or otherwise utilized by D&D Beyond – it is only a coding challenge.
 

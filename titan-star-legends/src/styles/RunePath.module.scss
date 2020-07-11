@@ -1,0 +1,132 @@
+:global(body){
+    background: url("/img/talent-calc-bg.png");
+    background-size: contain;
+}
+.tree-container{
+    margin-top: 100px;
+    .title{
+        background-color: #191A1B;
+        color: #EBEBEB;
+        font-family: "Arial";
+        font-size: 1.4em;
+        margin: 0 auto;
+        padding: 10px 15px;
+        text-align: center;
+        width: fit-content;
+    }
+    table{
+        margin: 0 auto;
+        min-width: 760px;
+        width: 60%;
+        .path-title{
+            color: #EBEBEB;
+            font-size: 1.2em;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+        .progress-line{
+            background-color: #303133;
+            display: inline-block;
+            height: 10px;
+            margin-bottom: 20px;
+            width: 75px;
+        }
+        .rune{
+            border: 2.5px solid #535353;
+            display: inline-block;
+            height: 50px;
+            transition: border .15s ease-in;
+            width: 50px;
+            -moz-transition: border .15s ease-in;
+            -o-transition: border .15s ease-in;
+            -webkit-transition: border .15s ease-in;
+            &.active{
+                border: 2.5px solid #6EACEA;
+                box-shadow: 0px 0px 3px 3px rgba(225, 225, 225, .2);
+
+            }
+            &:hover{cursor:pointer;}
+            &.pathOne-runeOne{
+                background: url("/img/talent-icons-sprite.png") 0px 50px;
+                &:hover{
+                    background: url("/img/talent-icons-sprite.png") 0px 0px;
+                }
+                &.active{
+                    background: url("/img/talent-icons-sprite.png") 0px 0px;
+                }
+            }
+            &.pathOne-runeTwo{
+                background: url("/img/talent-icons-sprite.png") 350px 50px;
+                &:hover{
+                    background: url("/img/talent-icons-sprite.png") 350px 0px;
+                }
+                &.active{
+                    background: url("/img/talent-icons-sprite.png") 350px 0px;
+                }
+            }
+            &.pathOne-runeThree{
+                background: url("/img/talent-icons-sprite.png") 300px 50px;
+                &:hover{
+                    background: url("/img/talent-icons-sprite.png") 300px 0px;
+                }
+                &.active{
+                    background: url("/img/talent-icons-sprite.png") 300px 0px;
+                }
+            }
+            &.pathOne-runeFour{
+                background: url("/img/talent-icons-sprite.png") 250px 50px;
+                &:hover{
+                    background: url("/img/talent-icons-sprite.png") 250px 0px;
+                }
+                &.active{
+                    background: url("/img/talent-icons-sprite.png") 250px 0px;
+                }
+            }
+            &.pathTwo-runeOne{
+                background: url("/img/talent-icons-sprite.png") 200px 50px;
+                &:hover{
+                    background: url("/img/talent-icons-sprite.png") 200px 0px;
+                }
+                &.active{
+                    background: url("/img/talent-icons-sprite.png") 200px 0px;
+                }
+            }
+            &.pathTwo-runeTwo{
+                background: url("/img/talent-icons-sprite.png") 150px 50px;
+                &:hover{
+                    background: url("/img/talent-icons-sprite.png") 150px 0px;
+                }
+                &.active{
+                    background: url("/img/talent-icons-sprite.png") 150px 0px;
+                }
+            }
+            &.pathTwo-runeThree{
+                background: url("/img/talent-icons-sprite.png") 100px 50px;
+                &:hover{
+                    background: url("/img/talent-icons-sprite.png") 100px 0px;
+                }
+                &.active{
+                    background: url("/img/talent-icons-sprite.png") 100px 0px;
+                }
+            }
+            &.pathTwo-runeFour{
+                background: url("/img/talent-icons-sprite.png") 50px 50px;
+                &:hover{
+                    background: url("/img/talent-icons-sprite.png") 50px 0px;
+                }
+                &.active{
+                    background: url("/img/talent-icons-sprite.png") 50px 0px;
+                }
+            }
+        }
+        .points{
+            color: #EBEBEB;
+            font-size: 1.3em;
+            font-weight: 300;
+            text-align: center;
+            .points-spent{
+                color: #3B516B;
+            }
+        }
+    }
+}
